@@ -1,0 +1,968 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* Header codes start here */
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+}
+.logo{
+    height:50px;
+}
+.bars{
+    font-size:30px;
+    z-index:1;
+}
+a:visited{
+    color: inherit;
+}
+.barsMenu{
+ position:fixed;
+ left:0;
+ top:0;
+ text-align:center;
+ width:200px;
+ height:100%;
+ background-color: rgba(0, 0, 0, 0.80);
+ color:#fff;
+ display:flex;
+ flex-direction:column;
+ gap: 30px 0;
+ padding-top:40px;
+}
+.closeIcon{
+    text-align:right;
+    padding-right: 20px;
+    font-size:30px;
+    cursor:pointer;
+}
+.barsMenuAll{
+    position: fixed;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    display:none;
+    z-index: 100;
+}
+.barsMenuAllToggle{
+    left:0;
+    display:block;
+    transition:all 2s;
+
+}
+/* Header codes finish here */
+
+/* --------------------------------------- */
+
+/* Main codes start here */
+
+
+/* Main Section1 codes start here */
+.section1{
+    width:100%;
+    height:100vh;    
+    background-image: url("image/section1img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourMission{
+    width:350px;
+    height:55vh;
+    background-color:#323A56;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    padding: 50px 20px;
+    
+}
+.section1 h1{
+    color:#fff;
+    font-size:43px;
+}
+.ourP1{
+    color:#C0C0C0;
+    font-size:18px;
+}
+.ourP2{
+    color:#fff;
+    font-size:19px;
+}
+.btn{
+    width:150px;
+    height:40px;
+    text-transform: uppercase;
+    background-color: Transparent;
+    color:#fff;
+    border:1px solid #fff;
+    cursor: pointer;
+    margin-top:20px;
+}
+.btn:hover{
+    color:black;
+    background-color: #fff;
+}
+
+.future{
+    width:500px;
+    height:55vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    padding: 50px 20px;
+    gap:20px;
+    text-align:end;
+
+
+}
+.future p{
+    padding-left:100px
+}
+.futureIcons{
+    color: #fff;
+    font-size:20px
+    
+}
+.fa-twitter{
+    margin:0 10px;
+}
+.fa-youtube{
+    margin:0 10px;
+}
+/* Main Section1 codes finish here */
+
+/* --------------------------------------------- */
+
+/* Section architectura codes start */
+
+.architectura{
+    background-color: #CCD1E5;
+
+}
+.archText{
+    text-align:center;
+    padding:50px 0;
+    font-size:50px;
+    font-weight:500;
+}
+.archCard{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.archCardIn{
+    width:40%;
+    height:auto;
+    background-color:#fff;
+    position:relative;
+    padding:40px 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;   
+}
+.leftLine{
+    position:absolute;
+    left:0;
+    top:0;
+    width:10px;
+    height:100%;
+    background-color:#323A56;
+}
+.archImg{
+    width:100px;
+    height:100px;
+}
+.archImg img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.urban{
+    font-size:30px;
+    padding:25px 0;
+    color:#404040;
+}
+.congue{
+    font-size:18px;
+    padding-bottom:25px;
+    color:#606060;
+}
+.archCardIn span{
+    font-size:25px;
+}
+/* Section architectura codes finish */
+
+/* --------------------------------------------- */
+
+/* Section jsonSection codes start */
+
+.jsonSection{
+    background-color:#323A56;
+    padding:40px 0;
+
+}
+.jsonText{
+    text-align:center;
+    color:#fff;
+    margin-bottom:40px
+}
+.jsonText .p1{
+    font-size:50px;
+    padding-bottom: 15px;
+}
+.jsonText .p2{
+    font-size:18px;
+}
+
+.cities{
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    /* flex-wrap: wrap; */
+}
+.cityRow{
+    width:27%;
+}
+.cityCol{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cityColImg{
+    width:100%;
+    height:70vh;
+}
+.cityColImg img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.cityColText{
+    background-color: #E3353C;
+    padding: 30px;
+}
+#cityColText1{
+    color:#fff;
+}
+#cityColText2{
+    background-color: #E0E5EB;
+    color:#000;
+}
+#cityColText3{
+    background-color: #fff;
+    color: #000;
+}
+#cityColText3 p:nth-child(2){
+    color: #E3353C;
+}
+/* #cityColText3 p:nth-child(3){
+    font-size: 17px;
+} */
+.cityColText p:nth-child(2) {
+    font-size: 30px;
+    padding: 15px 0;
+}
+.cityColText .cityIcon{
+    width:100px;
+    height:100px;
+}
+.cityIcon img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.cityColText p:nth-child(3) {
+    font-size: 17px;
+}
+/* .cities{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.citiesRow{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.citiesRow .citiesIn1:nth-child(1){
+    height:100vh;
+}
+.citiesIn{
+    width:27%;
+    padding:40px;
+}
+.citiesIn .p1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.citiesIn .p2{
+    font-size: 18px;
+}
+.citiesIn1 img{
+    width:100%;
+    object-fit:cover;
+}
+.citiesIn1{
+    width:27%;
+}
+
+#citiesIn2{
+    background-color: #E0E5EB;
+}
+#citiesIn4{
+    background-color: #E3353C;
+    color:#fff;
+}
+#citiesIn6{
+    background-color: #FFFFFF;
+    margin-top:-100px
+} */
+
+
+
+.moreBtnDiv{
+    text-align:center;
+    padding-bottom: 30px;
+}
+.moreBtn{
+    width:150px;
+    height:40px;
+    text-transform: uppercase;
+    background-color: Transparent;
+    color:black;
+    border:1px solid black;
+    cursor: pointer;
+    margin-top:20px;
+}
+.moreBtn:hover{
+    color:#fff;
+    background-color: #323A56;
+}
+/* Section jsonSection codes finish */
+
+/* --------------------------------------------- */
+
+/* Section company codes start */
+.company{
+    background-color:#CCD1E5;
+    margin:100px 0;
+    display: flex;
+    justify-content: center;
+}
+.companyLeft{
+    width:40%;
+    height:60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.companyLeft .redDiv{
+    position:absolute;
+    left:-65px;
+    bottom: 50px;
+    width:100px;
+    height:150px;
+    background-color: #E3353C;
+    z-index:1;
+}
+.companyLeft img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+
+}
+.companyRight{
+    width:40%;
+    height:60vh;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.companyRightText{
+    padding:0 30px
+}
+.companyRightText span{
+    font-size:45px;
+}
+.companyRightText p{
+    font-size:18px;
+    padding: 25px 0;
+}
+.companyBtn{
+    width:150px;
+    height:45px;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.companyBtn:hover{
+    background-color: #323A56;
+    color:#fff;
+}
+
+.companyRight .redDivRight{
+    width:150px;
+    height:200px;
+    background-color: #E3353C;
+    position:absolute; 
+    right:-45px;
+    top:65px; 
+    z-index: -1;
+}
+/* Section company codes finish */
+
+/* --------------------------------------------- */
+
+/* Section sectionTeam codes start */
+.sectionTeam{ 
+    background-color: #323A56;
+    padding:80px 0;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teamCard{
+    display:flex;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+
+}
+.teamOur{
+    width:600px;
+    padding:0 50px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.teamText .p2{
+    font-size:20px;
+    padding:25px 0
+
+}
+.teamText .p1{
+    font-size:50px
+}
+.teamText .p3{
+    font-size:20px;
+    margin-bottom:30px
+}
+.contactBtn{
+    width:180px;
+    height:50px;
+    text-transform: uppercase;
+    background-color: transparent; 
+    color: #fff;
+    border-color: #fff;
+    cursor:pointer;
+    font-size:16px
+}
+
+.contactBtn:hover{
+    background-color: #fff;
+    color:#404040
+}
+#cards2{
+    margin-top: 100px;
+    margin-left:25px
+}
+
+.leftCard{
+    width:300px;
+    height:50vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-bottom: 25px;
+}
+.leftCard .alex{
+    font-size:30px
+}
+.leftCard span{
+    font-size:25px
+}
+.leftCard .developer{
+    color:#E3353C;
+}
+.leftCard img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* Section sectionTeam codes finish */
+
+/* --------------------------------------------- */
+
+/* Section sectionBuiding codes start */
+.sectionBuiding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#CCD1E5;
+    position: relative;
+    height:1100px;
+}
+.buildingTeam{
+    width:80%;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+.teamRed{
+    width:90%;
+    height:200px;
+    background-color: #E3353C;
+    position: absolute;
+    top:-80px;
+    right:-80px;
+    z-index: -1;
+
+}
+.buildingTeam img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.buildingText{
+    width:40%;
+    background-color: #fff;
+    padding:60px 40px;
+    margin-left:-30%;
+    margin-bottom:-40%;
+    z-index: 1;
+    
+}
+.buildingText .p1{
+    font-size:45px
+}
+.buildingText .p2{
+    font-size:18px;
+    padding:30px 0;
+    
+}
+.buildingText .p3{
+    font-size:18px;
+    padding-bottom: 30px;
+}
+/* Section sectionBuiding codes finish */
+
+/* --------------------------------------------- */
+
+/* Section sectionEmbedded codes start */
+.sectionEmbedded{
+    background-color: #323A56;
+    padding:50px;
+}
+.embeddedRow1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.sectionEmbedded .embeddedRow1:nth-child(1){
+    margin-bottom: 30px;
+}
+
+.leftIcon{
+    width:30%;
+    height:40vh;
+    background-color: #E3353C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding: 0 20px;
+    color: #fff;
+
+}
+.leftIcon .p1{
+    font-size:50px
+}
+.leftIcon .p2{
+    font-size:20px;
+    text-align:center;
+}
+.rightText{
+    width:50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding:0 50px;
+    
+}
+
+.rightText .p1{
+    font-size:30px;
+    padding-bottom:20px;
+}
+.rightText .p2{
+    font-size:18px;
+}
+#rightText{
+    display: flex;
+    flex-direction: row;  
+}
+#rightText .p1{
+    font-size: 20px;  
+}
+.sampleText{
+    padding: 10px
+}
+#rightText .p2{
+    font-size: 18px;
+}
+
+/* .sampleText{
+    margin-bottom: 40px;
+} */
+/* Section sectionEmbedded codes finish */
+
+/* --------------------------------------------- */
+
+/* Section sectionContact codes start */
+
+.sectionContact{
+    background-color: #CCD1E5;
+    padding:70px 0;
+}
+.imgandform{
+    display:flex;
+    justify-content: center;
+}
+.imgContact{
+    width:40%;
+}
+.imgContact img{
+    width:100%;
+    object-fit:cover;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height:60vh;
+    padding:30px;
+    gap: 20px;
+    background-color: #fff;
+    margin-top: 20%;
+    margin-left:-20%;
+}
+.contact .contLab{
+    display:flex;
+    flex-direction: column;
+}
+.contLab input{
+    height: 45px;
+    padding-left:10px;
+    border: none;
+    background-color:#F2F3F9;
+}
+ #textarea{
+    border:none;
+    height:80px;
+    padding:10px;
+    background-color:#F2F3F9;
+}
+.submt{
+    display:flex;
+    flex-direction: column;
+}
+.submitBtn{
+    background-color: #E3353C;
+    height: 45px;
+    padding-left:10px;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.submitBtn:hover{
+    background-color:#323A56
+}
+/* Main codes finish here */
+
+/* --------------------------------------------- */
+
+/* Footer codes start here */
+footer{
+    padding:60px 0;
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    margin-bottom: 80px;
+}
+.footerText{
+    width:27%;
+    text-align: center;
+}
+/* Footer codes finish here */
+
+/* --------------------------------------------- */
+
+/* Responsive Design start here*/
+
+@media only screen and (max-width:1400px){
+
+}
+@media only screen and (max-width:1200px){
+    .jsonImg{
+        width:100%;
+    }
+    .sectionTeam{
+        flex-direction: column;
+        position: relative;        
+    }
+    .teamOur{
+        width:70%;
+        position: absolute;
+        top: 0;
+    }
+
+    .teamCard{
+        padding-top:300px
+    }
+    .buildingText{
+        width:60%;
+        background-color: #fff;
+        padding:60px 40px;
+        
+    }
+    .sectionBuiding{
+        height:1000px;
+    }
+    .footerText{
+        width:45%; 
+    }
+}
+@media only screen and (max-width:992px){
+    .archCard{
+        flex-direction:column;
+        align-items:center;
+        justify-content: space-evenly;
+        gap:30px;
+    }
+    .archCardIn{
+        width:80%;
+    }
+    .jsonImgRow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+    .jsonImgIn{
+        width:60%;
+    }
+    .buildingTeam img{
+        object-fit: cover;
+        
+    }
+    .embeddedRow1{
+        flex-direction: column;
+    }
+    
+    .leftIcon{
+        width:80%;
+    
+    }
+    .rightText{
+        width:80%;
+        padding:30px 0;
+    }
+    #rightText{
+        flex-direction: column;  
+    }
+
+    .imgContact{
+        width:60%;
+    }
+    .contact{
+        width:60%;
+        margin-top: 30%;
+        margin-left:-40%;
+    }
+    .footerText{
+        width:55%;
+        
+    }
+
+}
+@media only screen and (max-width:768px){
+    .section1{
+        flex-direction:column
+    }
+    .ourMission{
+        width:80%;
+        height:50vh;
+    }
+    .future{
+        width:80%;
+        height:auto;
+    }
+    .future p{
+        padding:0;
+    }
+    .archText {
+        font-size:40px;
+    }
+    .jsonImgIn{
+        width:80%;
+    }
+    .company{
+        flex-direction:column;
+        align-items: center;
+    }
+    .companyLeft{
+        width:70%
+    }
+    .companyRight{
+        width:70%
+    }
+    .teamCard{
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #cards2{
+        margin-top: 30px;
+        margin-left:0;
+    }
+    .teamOur{
+        width:90%;
+
+    }
+    .teamCard{
+        padding-top:350px
+    }
+    .cards{
+        width:90%;
+        text-align: center;
+    }
+    .leftCard{
+        width:100%;
+        
+    }
+    .sectionBuiding{
+        padding:100px 0;
+        flex-direction: column;
+    }
+    .buildingText{
+        width:80%;
+        margin-left:0;
+        margin-bottom:0;
+    }
+    .buildingTeam{
+        width:80%;
+        height: 50vh;
+    }
+    .teamRed{
+        width:90%;
+        height:200px;
+        background-color: #E3353C;
+        position: absolute;
+        top:-30px;
+        right:-30px;
+        z-index: -1;
+    
+    }
+    .sectionBuiding{
+        height:auto;
+    }
+    .leftIcon{
+        width:100%;
+    }
+    .rightText{
+        width:100%;
+        padding:30px 0;
+    }
+
+    .cities{
+        flex-direction: column;
+    }
+    .cityRow{
+        width:60%;
+    }
+    .footerText{
+        width:70%;
+        
+    }
+
+}
+@media only screen and (max-width:576px){
+    .section1 h1{
+        font-size:30px;
+    }
+    .teamCard{
+        padding-top:440px
+    }
+    .companyLeft .redDiv{
+        display:none;
+    }
+    .companyLeft{
+        width:90%
+    }
+    .companyRight{
+        width:90%
+    }
+    .imgContact{
+        width:90%;
+    }
+    .cityRow{
+        width:80%;
+    }
+    .contact{
+        width:90%;
+        margin-top: 50%;
+        margin-left:-60%;
+    }
+    .footerText{
+        width:90%; 
+    }
+}

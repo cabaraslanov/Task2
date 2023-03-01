@@ -1,0 +1,26 @@
+[
+    {
+     "img": "image/archCardImg1.jpg",
+     "title": "Urban planning",
+     "text": "Congue eu consequat ac felis donec et odio pellentesque diam. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et malesuada fames ac. Amet purus gravida quis blandit.",
+     "icon": "<i class='fa-solid fa-play'></i>"
+    },
+    {
+        "img": "image/archCardImg2.jpg",
+        "title": "Interior Design",
+        "text": "Congue eu consequat ac felis donec et odio pellentesque diam. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et malesuada fames ac. Amet purus gravida quis blandit.",
+        "icon": "<i class='fa-solid fa-play'></i>"
+    },
+    {
+        "img": "image/archCardImg3.jpg",
+        "title": "Landscape design",
+        "text": "Congue eu consequat ac felis donec et odio pellentesque diam. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et malesuada fames ac. Amet purus gravida quis blandit.",
+        "icon": "<i class='fa-solid fa-play'></i>"
+    },
+    {
+        "img": "image/archCardImg4.jpg",
+        "title": "Science and Technology",
+        "text": "Congue eu consequat ac felis donec et odio pellentesque diam. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et malesuada fames ac. Amet purus gravida quis blandit.",
+        "icon": "<i class='fa-solid fa-play'></i>"
+    }
+]
